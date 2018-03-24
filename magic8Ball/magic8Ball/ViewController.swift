@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var randomBallNumber : Int = 0
+    var randomBallNumber : Int = 0 
     let ballArray = ["ball1","ball2","ball3","ball4","ball5"]
 
     @IBOutlet weak var ImageView: UIImageView!
