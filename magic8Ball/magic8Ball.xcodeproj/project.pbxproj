@@ -287,10 +287,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wisdeom.magic8Ball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = swiftMagic8Ball_Dev;
+				PROVISIONING_PROFILE_SPECIFIER = magic8Ball;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "";
+				"VALID_ARCHS[sdk=*]" = "";
 			};
 			name = Debug;
 		};
@@ -311,10 +313,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wisdeom.magic8Ball;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = swiftMagic8Ball_Dev;
+				PROVISIONING_PROFILE_SPECIFIER = magic8Ball;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "";
 			};
 			name = Release;
 		};

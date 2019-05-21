@@ -34,6 +34,11 @@ class ViewController: UIViewController {
         randomBallNumber = Int(arc4random_uniform(5))
         print(randomBallNumber)
         ImageView.image = UIImage(named: ballArray[randomBallNumber])
+        
+    }
+    
+    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+        updateBallAnswer()
     }
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
