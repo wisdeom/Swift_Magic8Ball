@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  magic8Ball
 //
-//  Created by Jihye Eom on 2018. 3. 18..
-//  Copyright © 2018년 Jihye Eom. All rights reserved.
+//  Created by Jihye Eom on 2023. 2. 8..
+//  Copyright © 2023년 Jihye Eom. All rights reserved.
 //
 
 import UIKit
